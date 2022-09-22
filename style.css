@@ -1,0 +1,180 @@
+.nav-bar{
+    margin: 0% 11%;
+}
+nav a{
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+}
+
+#banner .container{
+    position: relative;
+    padding: 0px;
+}
+
+#banner .container .title-banner{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+#banner .bt-contact{
+    height: 34px;
+    width: 127px;
+    background-color: #10c9c3;
+    padding: 2% 6%;
+    
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.title-banner{
+    height: 200px;
+    width: 313px;
+}
+.title-banner p{
+    font-size: 12px;
+}
+
+#aboutus p{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+#aboutus .p2{
+    margin-top: 0px;
+}
+
+
+
+
+#professionalskill{
+    background-color: #f5f5f5;
+}
+#professionalskill .fixcol{
+    padding: 7% 6%;
+}
+
+#professionalskill h3{
+    font-size: 25px;
+}
+#professionalskill .fixp{
+    font-size: 11px;
+}
+
+#professionalskill .container{
+    padding: 0px;
+}
+
+
+#specifications{
+    background-color: #10c9c3;
+}
+.specdetail p{
+    margin: 0px;
+    color: white;
+}
+.specdetail span{
+    font-size: 10px;
+    color: white;
+}
+
+
+
+#boximages{
+    background-color: #f6f6f6;
+}
+#boximages picture{
+    padding: 0px;
+}
+#boximages .col-lg-3{
+    padding: 0px;
+}
+
+.container .title-bot{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.bnb{
+    background-color: #f6f6f6;
+    font-size: 11px;
+    font-weight: 500;
+    padding-top: 2%;
+    opacity: 0.6;
+}
+
+#boximages p{
+    font-size: 11px;
+    font-weight: 500;
+    padding-top: 2%;
+    opacity: 0.6;
+}
+
+#wrapper{
+    max-width: 960px;
+    text-align: center;
+}
+
+#workprocess p{
+    font-size: 13px;
+}
+
+#cardcategory{
+    background-color: #f6f6f6
+}
+
+#cardcategory .ptitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+#cardcategory .pdetail{
+    font-size: 11px;
+}
+
+
+#brand img{
+height: 120px;
+}
+
+
+
+
+#form{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#form p{
+    font-size: 13px;
+}
+
+
+
+footer h3{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+footer p{
+    font-size: 12px;
+    color: rgb(198, 199, 199);
+}
+
+footer{
+    background-color: black;
+}
+footer #email{
+    text-align: center;
+    color: rgb(198, 199, 199);
+}
+footer li{
+    display: block;
+    font-size: 13px;
+}
+footer li a{
+    display: block;
+    font-size: 13px;
+    color: rgb(198, 199, 199);
+}

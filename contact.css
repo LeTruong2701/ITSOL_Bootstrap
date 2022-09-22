@@ -1,0 +1,164 @@
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    padding-top: 2.8%;
+}
+
+.logo img {
+    width: 6%;
+    height: auto;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.menu-ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-ul li {
+    float: left;
+}
+
+.menu-ul li a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: MontserratMedium;
+    color: black;
+}
+
+.menu-ul li a:hover {
+    color: rgb(218, 73, 73);
+}
+
+.active-link {
+    color: #10c9c3 !important;
+}
+
+.last-li-menu {
+    padding-right: 0% !important;
+}
+
+@media only screen and (min-width: 993px) {
+    .menu-ul li a {
+        padding: 20px 30px;
+        padding-right: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .menu-ul li a {
+        padding: 14px 20px;
+        padding-right: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .logo, .menu {
+        width: 100%;
+        text-align: center;
+    }
+    .menu-ul {
+        float: none;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .menu-ul li a {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo, .menu {
+        width: 100%;
+        text-align: center;
+    }
+    .menu-ul {
+        float: none;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .menu-ul li a {
+        font-size: 2vw;
+    }
+}
+
+
+
+
+form {
+    padding: 10% 10%
+}
+form input{
+    border: 0px;
+}
+
+.content {
+    margin: auto;
+    padding: 10% 10%
+}
+
+#row2 {
+    padding-left: 5%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+footer h3{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+footer p{
+    font-size: 12px;
+    color: rgb(198, 199, 199);
+}
+
+footer{
+    background-color: black;
+}
+footer #email{
+    text-align: center;
+    color: rgb(198, 199, 199);
+}
+footer li{
+    display: block;
+    font-size: 13px;
+}
+footer li a{
+    display: block;
+    font-size: 13px;
+    color: rgb(198, 199, 199);
+}
+
+
